@@ -3,8 +3,8 @@ def badge_maker(name)
    return "Hello, my name is #{name}."
  end
 
-def batch_badge_creator
-  loop batch_badge_creator
+def batch_badge_creator(attendees)
+  do loop batch_badge_creator
   return ["Hello my name is #{attendees}"]
 end
 
