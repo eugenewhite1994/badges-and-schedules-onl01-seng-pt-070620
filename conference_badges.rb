@@ -5,6 +5,7 @@ def badge_maker(name)
 
 def batch_badge_creator(messages)
   return "Hello, my name is #{messages}."
+end
 
 # def assign_rooms(listOfNames) 
 # totalRooms = [1, 2, 3, 4, 5, 6, 7]
