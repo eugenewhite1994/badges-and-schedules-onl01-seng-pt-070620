@@ -4,7 +4,8 @@ def badge_maker(name)
  end
 
 def batch_badge_creator(attendees)
-  do loop batch_badge_creator
+  counter = 0
+  while counter < 
   return ["Hello my name is #{attendees}"]
 end
 
