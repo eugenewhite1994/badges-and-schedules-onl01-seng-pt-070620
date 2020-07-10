@@ -5,7 +5,7 @@ def badge_maker(name)
 
 def batch_badge_creator(attendees)
   loop attendees
-  return "#{attendees}""
+  return "#{attendees}"
 end
 
 # def assign_rooms(listOfNames) 
