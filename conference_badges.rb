@@ -1,10 +1,10 @@
 listOfNames = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus","Matz"]
-def batch_badge_creator(listOfNames)
+def batch_maker(listOfNames)
   listOfNames.each do |name| 
     puts "Hello, my name is #{name}."
   end
 end
-batch_badge_creator(listOfNames)
+batch_maker(listOfNames)
 
 def assign_rooms 
   totalRooms = [1, 2, 3, 4, 5, 6, 7]
