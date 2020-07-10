@@ -15,5 +15,4 @@ end
 end
 end
 assign_rooms(listOfNames)
-listOfNames
 
