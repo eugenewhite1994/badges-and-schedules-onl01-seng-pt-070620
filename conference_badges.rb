@@ -10,7 +10,7 @@ def batch_badge_creator(attendees)
 # badge = badge_maker("Eugene")
 # arr.push(badge)
 
-arr.push(badge_maker())
+arr.push(badge_maker(attendees))
 
  counter += 1 
 end
