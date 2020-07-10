@@ -24,9 +24,7 @@ end
 
 
 def assign_rooms(message) 
-rooms = 0 
-while rooms < message.count
-listOfNames.each do |name|
+  message.each do |message|
 totalRooms.each do |room|
 puts "Hello #{name}! You'll be assigned to room #{room}!"
 end
