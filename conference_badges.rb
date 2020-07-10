@@ -23,8 +23,9 @@ end
 
 
 
-def assign_rooms(listOfNames) 
-totalRooms = [1, 2, 3, 4, 5, 6, 7]
+def assign_rooms(attendees) 
+rooms = 0 
+while rooms <
 listOfNames.each do |name|
 totalRooms.each do |room|
 puts "Hello #{name}! You'll be assigned to room #{room}!"
