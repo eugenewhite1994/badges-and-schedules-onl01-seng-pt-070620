@@ -1,10 +1,10 @@
 listOfNames = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus","Matz"]
-def batch_maker(listOfNames)
+def batch_maker
   listOfNames.each do |name| 
     puts ("Hello, my name is #{name}.")
   end
 end
-batch_maker(listOfNames)
+batch_maker
 
 def assign_rooms 
   totalRooms = [1, 2, 3, 4, 5, 6, 7]
