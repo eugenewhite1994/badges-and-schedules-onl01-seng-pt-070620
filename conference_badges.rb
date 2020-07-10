@@ -23,11 +23,11 @@ end
 
 
 
-def assign_rooms(message) 
-  message.each do |message|
-  totalRooms.each do |room|
-puts "Hello #{name}! You'll be assigned to room #{room}!"
-end
-end
+def assign_rooms(array)
+  rooms = 1..7
+
+  array.each_with_index { |name,index| array[index] = "Hello, #{name}! You'll be assigned to room #{index + 1}!"}
+
+  return array
 end
 
