@@ -1,7 +1,7 @@
 listOfNames = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus","Matz"]
 def batch_badge_creator(listOfNames)
   listOfNames.each do |name| 
-    puts "Hello, my name is #{name}"
+    puts "Hello, my name is #{name}."
   end
 end
 batch_badge_creator(listOfNames)
