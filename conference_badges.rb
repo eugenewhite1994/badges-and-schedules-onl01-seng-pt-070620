@@ -8,6 +8,7 @@ def batch_badge_creator(attendees)
   arr = []
   while counter < attendees.count
 badge_maker("Eugene")
+arr.push()
 
  counter += 1 
 end
