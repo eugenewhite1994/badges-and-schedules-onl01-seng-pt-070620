@@ -4,7 +4,7 @@ def badge_maker(listOfNames)
     puts ("Hello, my name is #{name}.")
   end
 end
-badge_maker(listOfNames)
+
 
 def assign_rooms(listOfNames) 
   totalRooms = [1, 2, 3, 4, 5, 6, 7]
