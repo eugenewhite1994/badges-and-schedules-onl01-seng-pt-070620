@@ -1,6 +1,7 @@
  listOfNames = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus","Matz"]
-def badge_maker
- 
+def badge_maker(name)
+ name.each do |name|
+   puts "Hello, my name is #{name}."
 
 
 # def assign_rooms(listOfNames) 
