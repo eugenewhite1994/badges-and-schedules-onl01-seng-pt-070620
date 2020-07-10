@@ -25,7 +25,7 @@ end
 
 def assign_rooms(message) 
   message.each do |message|
-totalRooms.each do |room|
+  totalRooms.each do |room|
 puts "Hello #{name}! You'll be assigned to room #{room}!"
 end
 end
