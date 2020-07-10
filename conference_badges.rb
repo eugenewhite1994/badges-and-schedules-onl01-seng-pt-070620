@@ -6,7 +6,7 @@ def badge_maker(listOfNames)
 end
 badge_maker(listOfNames)
 
-def assign_rooms 
+def assign_rooms(listOfNames) 
   totalRooms = [1, 2, 3, 4, 5, 6, 7]
   listOfNames.each do |name|
   totalRooms.each do |room|
@@ -14,4 +14,4 @@ def assign_rooms
   end
 end
 end
-
+assign_rooms(listOfNames)
