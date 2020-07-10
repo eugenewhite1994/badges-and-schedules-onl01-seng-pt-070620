@@ -7,11 +7,13 @@ def batch_badge_creator(attendees)
   counter = 0
   arr = []
   while counter < attendees.count
-
+badge_maker(x)
  counter += 1 
 end
   return ["Hello my name is #{attendees}"]
 end
+
+
 
 # def assign_rooms(listOfNames) 
 # totalRooms = [1, 2, 3, 4, 5, 6, 7]
