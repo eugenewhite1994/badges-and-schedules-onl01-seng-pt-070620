@@ -14,9 +14,9 @@ arr.push(badge_maker(attendees[counter]))
 
  counter += 1 
 end
-attendees.each do |name|
-  arr.push(badge_maker(name))
-end
+# attendees.each do |name|
+#   arr.push(badge_maker(name))
+# end
   return arr
 end
 
